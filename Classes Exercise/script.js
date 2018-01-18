@@ -45,7 +45,7 @@ class Bus
 class CustomBus extends Bus{
     constructor(passengers,color,linenumber)
     {
-        super(passenger,color);
+        super(passengers,color);
             this.linenumber = linenumber || this.getRandomLineNumber();
     }
     getRandomLineNumber()
