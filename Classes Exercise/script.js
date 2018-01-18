@@ -62,3 +62,8 @@ class CustomBus extends Bus{
         return this;
     }
 }
+/* For homework: 
+
+Extend this example, allow the bus to be able to start running, to be able to move, 
+add seat counter (busy / free) , conductor, number of tiers, is broken / damaged..
+*/
